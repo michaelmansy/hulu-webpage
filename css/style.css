@@ -37,3 +37,16 @@ img{
     height: 530px;
     background: url('../img/header.jpg') no-repeat center center/cover;
 }
+
+.header nav{
+    display: flex;
+    /* // Aligns the navigation items to the right */
+    justify-content: flex-end; 
+    /* 20px top and bottom, then 50px left and right */
+    padding: 20px 50px;
+}
+
+.header .logo{
+    width: 270px;
+    margin: 20px 0;
+}
