@@ -60,3 +60,23 @@ img{
     width: 270px;
     margin: 20px 0;
 }
+
+.header .header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.header .header-text-1{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header .header-text-2 {
+    font-size: 18px;
+    margin: 25px 0;
+}
