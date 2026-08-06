@@ -33,6 +33,43 @@ img{
     width: 100%;
 }
 
+h4{
+    color: #00ed82;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+
+.btn{
+    display: inline-block;
+    background: #fff;
+    color: #333;
+    padding: 20px 35px;
+    font-size: 15px;
+    line-height: 14px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-cta:hover{
+    opacity: 0.8;
+}
+
+.legal-text{
+    font-size: 10px;
+    color: #ccc;
+    margin-top: 20px;
+    text-align: center;
+    color: #ccc;
+}
+
+
+/* Header Styles */
 .header{
     height: 530px;
     background: url('../img/header.jpg') no-repeat center center/cover;
