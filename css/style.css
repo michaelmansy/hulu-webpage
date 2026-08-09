@@ -65,6 +65,17 @@ h4{
     opacity: 0.8;
 }
 
+.btn-outline{
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn-outline:hover{
+    color: #fff;
+    border-color: #ccc;
+}
+
 .legal-text{
     font-size: 10px;
     color: #ccc;
@@ -144,6 +155,16 @@ h4{
         #0d3640 49.72%,
         #08141f 100% 
     );
+}
+
+
+.sub-header > div:last-of-type{
+    justify-self: end;
+    align-self: end;
+}
+
+.sub-header>div:last-of-type .sub-link{
+    text-align: center;
 }
 
 
