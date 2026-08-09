@@ -180,4 +180,23 @@ h4{
         text-align: center;
         padding: 0 20px;
     }
+
+    .sub-header{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .sub-header img{
+        width: 250px;
+        margin: auto;
+    }
+
+    .sub-header > div:last-of-type{
+        justify-self: center;
+        align-self: center;
+    }
 }
+
+
