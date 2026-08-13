@@ -92,6 +92,19 @@ h4{
     text-decoration: underline;
 }
 
+.text-xl {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.sub-text {
+    max-width: 850px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+/* End of Utility Classes - General Styles */
+
+
 /* Header Styles */
 .header{
     height: 530px;
@@ -168,7 +181,36 @@ h4{
 }
 
 
+/* Categories */
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 40px;
+}
 
+.categories .covers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.categories .covers > div{
+    height: 500px;
+    width: 300px;
+    position: relative;
+}
+
+.categories .cover-grad{
+    background: linear-gradient(
+        156.82deg,
+        rgba(0, 0, 0, 0) 4.58%,
+        rgba(0, 0, 0, 0.5) 69.61%
+    ),
+    linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0) 71.49%);
+}
 
 /* Media Queries */
 @media (max-width: 768px) {
