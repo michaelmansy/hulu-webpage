@@ -217,6 +217,16 @@ h4{
     linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0) 71.49%);
 }
 
+.categories .cover-text{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
 .cover-1{
     background: url('../img/cover-1.jpg') no-repeat center center/cover;
 }
