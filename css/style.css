@@ -332,6 +332,13 @@ h4{
     .categories .covers{
         grid-template-columns: 1fr;
     }
+
+    .live-border{
+        padding: 30px 10px;
+    }
+
+
+
 }
 
 
